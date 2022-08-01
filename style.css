@@ -1,0 +1,506 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+}
+#main #home{
+    width: 100%;
+    min-height: 100vh;
+    background-color:#FA7E7E;
+    border-top: 1px solid transparent;
+    position: relative;
+    overflow: hidden;
+    opacity: 1;
+}
+#main #home #nav{
+    width: 100%;
+    padding:.5em 5em;
+    min-height: 3em;
+    margin-top: .6em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#main #home #nav #nav1 h2{
+    font-size: 22px;
+    font-family: voyage;
+    font-weight: 100;
+    color: #fff;
+}
+#main #home #nav #nav2{
+    width: 35%;
+    min-height: 1.5em;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: flex-end;
+}
+#main #home #nav #nav2 .t{
+     width: 60%;
+     min-height: initial;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     font-size: 12px;
+}
+#main #home #nav #nav2 .t h3{
+    font-family: voyage;
+    font-weight: 100;
+    font-size: 10px;
+    letter-spacing: .1em;
+}
+#main #home #nav #nav2 .t1{
+    width: 30%;
+    min-height: initial;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 12px;
+}
+#main #home #nav #nav2 .t1 .cir{
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    font-size: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2em;
+    color: #FA7E7E;
+
+}
+
+#main #home #mainheading{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 4;
+
+
+}
+#main #home #mainheading #head{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: white;
+}
+#main #home #mainheading #head h1:nth-child(1){
+    font-size: 180px;
+    font-family: voyage;
+    font-weight: 100;
+    z-index: 9;
+}
+#main #home #mainheading #head h1:nth-child(2){
+    font-size: 180px;
+    font-family: voyage;
+    font-weight: 100;
+    z-index: 1;
+}
+
+#main #home #mainheading p{
+    position: absolute;
+    width: 50%;
+    font-size: 12px;
+    margin-left: 1em;
+    line-height: 2em;
+    font-family: gilroy;
+    z-index: 9;
+    color: white;
+}
+#main #home #mainheading .arrow{
+    width: 25%;
+    min-height: 2em;
+    font-size: 15px;
+    font-family: gilroy;
+    margin-top: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    bottom: -80%;
+    z-index: 9;
+}
+#main #home #mainheading .arrow .circle{
+    width: 2.5em;
+    min-height: 2.5em;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FA7E7E;
+}
+#main #home #mainheading .arrow h3{
+    font-family: gilroy;
+    font-size: 12px;
+    color: white;
+    font-weight: 100;
+}
+#main #home #mainheading .arrow h3 span{
+  font-weight: 999;
+}
+#main #home #mainheading #img{
+    position: absolute;
+    left: 0%;
+    top: -20%;
+    width: 60%;
+    z-index: 5;
+
+}
+#main #home #hey {
+    position: absolute;
+    top: 22%;
+    right: 12%;
+    font-family: voyage;
+    font-size: 180px;
+    font-weight: 100;
+    color: white;
+}
+#main #way{
+ width: 100%;
+ height: 100vh;
+ background-color: #FA7E7E;
+ border-top: 1px solid transparent;
+ position: relative;
+ display: flex;
+ justify-content: center;
+}
+#main #way .hr {
+    position: absolute;
+    top: 0%;
+    display: flex;
+    justify-content: center;
+    font-family: voyage;
+    color: white;
+    margin-top: 3em;
+    opacity: 0;
+}
+#main #way .hr h2{
+    font-weight: 50;
+    font-size: 30px;
+}
+#main #way .hs{
+    position: absolute;
+    left: 29%;
+    top: 15%;
+}
+#main #way .hs h3{
+    font-family: better grade;
+    font-size: 60px;
+    color: white;
+    font-weight: 200;
+    width: 0%;
+}
+#main #way .ha{
+    position: absolute;
+    right: 28%;
+    top: 15%;
+}
+#main #way .ha h3{
+    font-family: the nautigal;
+    font-size: 50px;
+    color: white;
+    font-weight: 100;
+}
+#main #way .la{
+    position: absolute;
+    top: 17%;
+    left: 35.8%;
+
+}
+#main #way .la svg{
+    width: 65%;
+}
+#main #way #holder{
+    margin-top: 12em;
+    width: 25em;
+    height: 26em;
+    background-image: url(img.jpg);
+    background-position: bottom;
+    background-size: cover;
+    position: relative;
+}
+#main #way #holder #text{
+    position:absolute;
+    top: 1%;
+    left: -24%;
+    width: 40em;
+    height: 40em;
+    line-height: 3.5em;
+    
+}
+#main #way #holder #text h1:nth-child(1){
+    font-size: 110px;
+    font-family: the nautigal;
+    color: white;
+
+}
+#main #way #holder #text h1:nth-child(2){
+    font-size: 170px;
+    font-family: the nautigal;
+    color: white;
+}
+#main #way #holder #text #in:nth-child(3){
+    width: 5em;
+    height: 5em;
+    border-radius: 50%;
+    border: .5em;
+    border: .2em solid white;
+    margin-top: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+#main #way #holder #text #in h1{
+    font-size: 30px;
+    font-family: gilroy;
+    font-weight: 100;
+}
+#main #way #holder #text h1:nth-child(4){
+    font-size: 190px;
+    font-family: the nautigal;
+    color: white;
+}
+
+#main #way #holder #text h1:nth-child(5){
+    font-size: 90px;
+    font-family:the nautigal;
+    font-weight: 100;
+    color: white;
+    margin-top: .5em;
+    margin-left: 1.3em;
+}
+#main #silde{
+    width: 100%;
+    height: 100vh;
+    background-color: #FA7E7E;
+    border-top: 1px solid white;
+}
+#main #silde #ftr{
+    width: 100%;
+    height: 12vh;
+    padding: 1em 3em;
+
+}
+#main #silde #ftr .up{
+    width: 100%;
+    height: 60%;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#main #silde #ftr .up .up1{
+    font-size: 20px;
+    font-family: voyage;
+    color: #CF2B2B;
+
+}
+#main #silde #ftr .up .up2{
+    font-size: 20px;
+    font-family: voyage;
+    color: #CF2B2B;
+
+}
+#main #silde #ftr .down{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#main #silde #ftr .down .d1{
+    font-size: 10px;
+    font-family: gilroy;
+    color: #fff;
+    letter-spacing: .1em;
+}
+#main #silde #ftr .down .d1 h3{
+    font-weight: 100;
+}
+#main #silde #ftr .down .d2{
+    font-size: 10px;
+    font-family: gilroy;
+    color: #fff;
+    letter-spacing: .1em;
+}
+#main #silde #ftr .down .d2 h3{
+    font-weight: 100;
+}
+#main #silde #heading h1:nth-child(1){
+    font-size: 60px;
+    font-family: voyage;
+    color: white;
+    font-weight: 100;
+    margin-left: 1em;
+}
+#main #silde #heading h1:nth-child(2){
+    font-size: 60px;
+    font-family: voyage;
+    color: white;
+    font-weight: 100;
+    margin-left: 1em;
+}
+#main #silde #sliderparent{
+    width: 100%;
+    height: 50%;
+    margin-top: 3em;
+    white-space: nowrap;   
+    overflow: auto;  
+    transition: all cubic-bezier(0.075, 1.82, 0.165, 1);
+}
+
+#main #silde #sliderparent::-webkit-scrollbar{
+    display: none;
+}
+#main #silde #sliderparent .sld{
+    width: 4em;
+    height: 19em;
+   display: inline;
+    margin-left:3em;
+    /* margin-top:  0.6em; ; */
+    margin-right: .5em;
+}
+#main #silde #sliderparent .sld img{
+    width: 20%;
+    height: 100%;
+    object-fit: cover;
+}
+#main #footer{
+    width: 100%;
+    height: 100vh;
+    padding: 3em 7em;
+    position: relative;
+    overflow: hidden;
+}
+#main #footer #sub{
+    width: 20%;
+    height: 10vh;
+}
+#main #footer #sub .sub1{
+    width: 100%;
+}
+#main #footer #sub .sub1 h3{
+    font-size: 12px;
+    font-family: gilroy;
+    color: black;
+    font-weight: 300;
+}
+#main #footer #sub .sub2{
+    width: 100%;
+}
+#main #footer #sub .sub2 h2{
+    font-size: 62px;
+    font-family: voyage;
+    color: red;
+    font-weight: 300;
+
+}
+#main #footer #sub p{
+    font-family: gilroy;
+    font-weight: 300;
+    width: 25em;
+    font-size: 15px;
+    margin-top: 2em;
+    color: black;
+    line-height: 1.5em;
+}
+#main #footer #sub p span{
+    font-weight: 300;
+    color: red;
+}
+#main #footer #get{
+    width: 50em;
+    margin-top: 10em;
+}
+#main #footer #get h1{
+    font-family: voyage;
+    font-weight: 500;
+    color: red;
+    font-size: 100px;
+
+}
+#main #footer input{
+    width: 20em;
+    height: 2.5em;
+    margin-top: 2.5em;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid grey;
+    font-family: gilroy;
+    opacity: 0.5;    
+    box-shadow: grey;
+    background-color: white;
+    
+}
+#main #footer img{
+    position: absolute;
+    width: 50em;
+    right: -10%;
+    top: 25%;
+}
+#main #fullnav{
+    width: 100%;
+    height: 100vh;
+    background-color: #FA7E7E;
+    position: absolute;
+    top: 0%;
+    left: -100%;
+  
+    display: flex;
+    opacity: 0;
+}
+#main #fullnav #left{
+    width: 60%;
+    height: 100%;
+    background-color: #FA7E7E;
+    padding: 5em 5em;
+}
+#main #fullnav #left #link{
+    width: 50%;
+    height: 10vh;
+    position: relative;
+    margin-top: 2em;
+    display: flex;
+    align-items: center;
+
+}
+#main #fullnav #left #link #photu{
+    width: 5em;
+    height: 8em;
+    position: absolute;
+    background-color: red;
+    margin-bottom: 1em;
+    display: none;
+}
+#main #fullnav #left #link a{
+    text-decoration: none;
+    font-size: 40px;
+    font-family: gilroy;
+    color: white;
+}
+
+#main #fullnav #right{
+    width: 40%;
+    height: 100%;
+    background-color: #CF2B2B;
+    padding: 6em 6em;
+}
+#main #fullnav #right #frame{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    margin-left: 1em;
+}
